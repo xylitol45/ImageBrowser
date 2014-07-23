@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0784360B1852090600F77DE3 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784360A1852090600F77DE3 /* SourceViewController.m */; };
+		07923757185A215000BBBE42 /* RegexHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07923756185A215000BBBE42 /* RegexHighlightView.m */; };
+		079237AC185A215900BBBE42 /* actionscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923759185A215900BBBE42 /* actionscript.plist */; };
+		079237AD185A215900BBBE42 /* actionscript3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792375A185A215900BBBE42 /* actionscript3.plist */; };
+		079237AE185A215900BBBE42 /* active4d.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792375B185A215900BBBE42 /* active4d.plist */; };
+		079237AF185A215900BBBE42 /* ada.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792375C185A215900BBBE42 /* ada.plist */; };
+		079237B0185A215900BBBE42 /* ampl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792375D185A215900BBBE42 /* ampl.plist */; };
+		079237B1185A215900BBBE42 /* apache.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792375E185A215900BBBE42 /* apache.plist */; };
+		079237B2185A215900BBBE42 /* applescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792375F185A215900BBBE42 /* applescript.plist */; };
+		079237B3185A215900BBBE42 /* asm-mips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923760185A215900BBBE42 /* asm-mips.plist */; };
+		079237B4185A215900BBBE42 /* asm-x86.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923761185A215900BBBE42 /* asm-x86.plist */; };
+		079237B5185A215900BBBE42 /* asp-js.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923762185A215900BBBE42 /* asp-js.plist */; };
+		079237B6185A215900BBBE42 /* asp-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923763185A215900BBBE42 /* asp-vb.plist */; };
+		079237B7185A215900BBBE42 /* aspdotnet-cs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923764185A215900BBBE42 /* aspdotnet-cs.plist */; };
+		079237B8185A215900BBBE42 /* aspdotnet-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923765185A215900BBBE42 /* aspdotnet-vb.plist */; };
+		079237B9185A215900BBBE42 /* awk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923766185A215900BBBE42 /* awk.plist */; };
+		079237BA185A215900BBBE42 /* batch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923767185A215900BBBE42 /* batch.plist */; };
+		079237BB185A215900BBBE42 /* c.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923768185A215900BBBE42 /* c.plist */; };
+		079237BC185A215900BBBE42 /* cobol.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923769185A215900BBBE42 /* cobol.plist */; };
+		079237BD185A215900BBBE42 /* coldfusion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792376A185A215900BBBE42 /* coldfusion.plist */; };
+		079237BE185A215900BBBE42 /* cpp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792376B185A215900BBBE42 /* cpp.plist */; };
+		079237BF185A215900BBBE42 /* csharp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792376C185A215900BBBE42 /* csharp.plist */; };
+		079237C0185A215900BBBE42 /* csound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792376D185A215900BBBE42 /* csound.plist */; };
+		079237C1185A215900BBBE42 /* css.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792376E185A215900BBBE42 /* css.plist */; };
+		079237C2185A215900BBBE42 /* d.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792376F185A215900BBBE42 /* d.plist */; };
+		079237C3185A215900BBBE42 /* dylan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923770185A215900BBBE42 /* dylan.plist */; };
+		079237C4185A215900BBBE42 /* eiffel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923771185A215900BBBE42 /* eiffel.plist */; };
+		079237C5185A215900BBBE42 /* erl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923772185A215900BBBE42 /* erl.plist */; };
+		079237C6185A215900BBBE42 /* eztpl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923773185A215900BBBE42 /* eztpl.plist */; };
+		079237C7185A215900BBBE42 /* fortran.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923774185A215900BBBE42 /* fortran.plist */; };
+		079237C8185A215900BBBE42 /* freefem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923775185A215900BBBE42 /* freefem.plist */; };
+		079237C9185A215900BBBE42 /* gedcom.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923776185A215900BBBE42 /* gedcom.plist */; };
+		079237CA185A215900BBBE42 /* gnuassembler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923777185A215900BBBE42 /* gnuassembler.plist */; };
+		079237CB185A215900BBBE42 /* haskell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923778185A215900BBBE42 /* haskell.plist */; };
+		079237CC185A215900BBBE42 /* header.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923779185A215900BBBE42 /* header.plist */; };
+		079237CD185A215900BBBE42 /* html.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792377A185A215900BBBE42 /* html.plist */; };
+		079237CE185A215900BBBE42 /* idl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792377B185A215900BBBE42 /* idl.plist */; };
+		079237CF185A215900BBBE42 /* java.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792377C185A215900BBBE42 /* java.plist */; };
+		079237D0185A215900BBBE42 /* javafx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792377D185A215900BBBE42 /* javafx.plist */; };
+		079237D1185A215900BBBE42 /* javascript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792377E185A215900BBBE42 /* javascript.plist */; };
+		079237D2185A215900BBBE42 /* jsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792377F185A215900BBBE42 /* jsp.plist */; };
+		079237D3185A215900BBBE42 /* latex.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923780185A215900BBBE42 /* latex.plist */; };
+		079237D4185A215900BBBE42 /* lilypond.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923781185A215900BBBE42 /* lilypond.plist */; };
+		079237D5185A215900BBBE42 /* lisp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923782185A215900BBBE42 /* lisp.plist */; };
+		079237D6185A215900BBBE42 /* logtalk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923783185A215900BBBE42 /* logtalk.plist */; };
+		079237D7185A215900BBBE42 /* lsl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923784185A215900BBBE42 /* lsl.plist */; };
+		079237D8185A215900BBBE42 /* lua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923785185A215900BBBE42 /* lua.plist */; };
+		079237D9185A215900BBBE42 /* matlab.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923786185A215900BBBE42 /* matlab.plist */; };
+		079237DA185A215900BBBE42 /* mel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923787185A215900BBBE42 /* mel.plist */; };
+		079237DB185A215900BBBE42 /* metapost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923788185A215900BBBE42 /* metapost.plist */; };
+		079237DC185A215900BBBE42 /* metaslang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923789185A215900BBBE42 /* metaslang.plist */; };
+		079237DD185A215900BBBE42 /* mysql.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792378A185A215900BBBE42 /* mysql.plist */; };
+		079237DE185A215900BBBE42 /* nemerle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792378B185A215900BBBE42 /* nemerle.plist */; };
+		079237DF185A215900BBBE42 /* none.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792378C185A215900BBBE42 /* none.plist */; };
+		079237E0185A215900BBBE42 /* nrnhoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792378D185A215900BBBE42 /* nrnhoc.plist */; };
+		079237E1185A215900BBBE42 /* objectivec.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792378E185A215900BBBE42 /* objectivec.plist */; };
+		079237E2185A215900BBBE42 /* objectivecaml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792378F185A215900BBBE42 /* objectivecaml.plist */; };
+		079237E3185A215900BBBE42 /* ox.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923790185A215900BBBE42 /* ox.plist */; };
+		079237E4185A215900BBBE42 /* pascal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923791185A215900BBBE42 /* pascal.plist */; };
+		079237E5185A215900BBBE42 /* pdf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923792185A215900BBBE42 /* pdf.plist */; };
+		079237E6185A215900BBBE42 /* perl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923793185A215900BBBE42 /* perl.plist */; };
+		079237E7185A215900BBBE42 /* php.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923794185A215900BBBE42 /* php.plist */; };
+		079237E8185A215900BBBE42 /* plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923795185A215900BBBE42 /* plist.plist */; };
+		079237E9185A215900BBBE42 /* postscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923796185A215900BBBE42 /* postscript.plist */; };
+		079237EA185A215900BBBE42 /* prolog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923797185A215900BBBE42 /* prolog.plist */; };
+		079237EB185A215900BBBE42 /* python.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923798185A215900BBBE42 /* python.plist */; };
+		079237EC185A215900BBBE42 /* r.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07923799185A215900BBBE42 /* r.plist */; };
+		079237ED185A215900BBBE42 /* rhtml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792379A185A215900BBBE42 /* rhtml.plist */; };
+		079237EE185A215900BBBE42 /* ruby.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792379B185A215900BBBE42 /* ruby.plist */; };
+		079237EF185A215900BBBE42 /* scala.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792379C185A215900BBBE42 /* scala.plist */; };
+		079237F0185A215900BBBE42 /* sgml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792379D185A215900BBBE42 /* sgml.plist */; };
+		079237F1185A215900BBBE42 /* shell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792379E185A215900BBBE42 /* shell.plist */; };
+		079237F2185A215900BBBE42 /* sml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792379F185A215900BBBE42 /* sml.plist */; };
+		079237F3185A215900BBBE42 /* sql.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A0185A215900BBBE42 /* sql.plist */; };
+		079237F4185A215900BBBE42 /* standard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A1185A215900BBBE42 /* standard.plist */; };
+		079237F5185A215900BBBE42 /* stata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A2185A215900BBBE42 /* stata.plist */; };
+		079237F6185A215900BBBE42 /* supercollider.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A3185A215900BBBE42 /* supercollider.plist */; };
+		079237F7185A215900BBBE42 /* tcltk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A4185A215900BBBE42 /* tcltk.plist */; };
+		079237F8185A215900BBBE42 /* template.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A5185A215900BBBE42 /* template.plist */; };
+		079237F9185A215900BBBE42 /* torquescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A6185A215900BBBE42 /* torquescript.plist */; };
+		079237FA185A215900BBBE42 /* udo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A7185A215900BBBE42 /* udo.plist */; };
+		079237FB185A215900BBBE42 /* vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A8185A215900BBBE42 /* vb.plist */; };
+		079237FC185A215900BBBE42 /* verilog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237A9185A215900BBBE42 /* verilog.plist */; };
+		079237FD185A215900BBBE42 /* vhdl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237AA185A215900BBBE42 /* vhdl.plist */; };
+		079237FE185A215900BBBE42 /* xml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 079237AB185A215900BBBE42 /* xml.plist */; };
+		07C3C90418387222006B42C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C3C90218387222006B42C5 /* InfoPlist.strings */; };
+		07C3C90618387222006B42C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C3C90518387222006B42C5 /* main.m */; };
+		07C3C90A18387222006B42C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C3C90918387222006B42C5 /* AppDelegate.m */; };
+		07C3C90D18387222006B42C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C3C90B18387222006B42C5 /* Main.storyboard */; };
+		07C3C91218387222006B42C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C3C91118387222006B42C5 /* Images.xcassets */; };
+		07C3C91918387222006B42C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C3C91818387222006B42C5 /* XCTest.framework */; };
+		07C3C91A18387222006B42C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C3C8F918387222006B42C5 /* Foundation.framework */; };
+		07C3C91B18387222006B42C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C3C8FD18387222006B42C5 /* UIKit.framework */; };
+		07C3C92318387223006B42C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C3C92118387223006B42C5 /* InfoPlist.strings */; };
+		07C3C92518387223006B42C5 /* ImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C3C92418387223006B42C5 /* ImageBrowserTests.m */; };
+		07C3C93018389873006B42C5 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C3C92F18389873006B42C5 /* BrowserViewController.m */; };
+		07E105861858BE8F00B044AC /* shCore.js in Sources */ = {isa = PBXBuildFile; fileRef = 07E105851858BE8F00B044AC /* shCore.js */; };
+		07E105881858BEAF00B044AC /* shCoreDefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 07E105871858BEAF00B044AC /* shCoreDefault.css */; };
+		07E1058A1858BEC600B044AC /* shBrushJScript.js in Sources */ = {isa = PBXBuildFile; fileRef = 07E105891858BEC600B044AC /* shBrushJScript.js */; };
+		07E1058C1858BED100B044AC /* shBrushXml.js in Sources */ = {isa = PBXBuildFile; fileRef = 07E1058B1858BED100B044AC /* shBrushXml.js */; };
+		07E1058E1858BEDB00B044AC /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 07E1058D1858BEDB00B044AC /* index.html */; };
+		07E105901858C10300B044AC /* shCore.js in Resources */ = {isa = PBXBuildFile; fileRef = 07E105851858BE8F00B044AC /* shCore.js */; };
+		07E105911858C10300B044AC /* shBrushJScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 07E105891858BEC600B044AC /* shBrushJScript.js */; };
+		07E105921858C10300B044AC /* shBrushXml.js in Resources */ = {isa = PBXBuildFile; fileRef = 07E1058B1858BED100B044AC /* shBrushXml.js */; };
+		26F66D5F186011FE003AF7D5 /* LazyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F66D5E186011FE003AF7D5 /* LazyImageView.m */; };
+		26FE5629183A23B700DA2C74 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FE5628183A23B700DA2C74 /* MyCollectionViewController.m */; };
+		2BD60F041E394987B4D9E475 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9CEDBEFB2A43BF946AECE1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C3C91C18387223006B42C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C3C8EE18387222006B42C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C3C8F518387222006B42C5;
+			remoteInfo = ImageBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078436091852090600F77DE3 /* SourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		0784360A1852090600F77DE3 /* SourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
+		07923755185A215000BBBE42 /* RegexHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexHighlightView.h; sourceTree = "<group>"; };
+		07923756185A215000BBBE42 /* RegexHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexHighlightView.m; sourceTree = "<group>"; };
+		07923759185A215900BBBE42 /* actionscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript.plist; sourceTree = "<group>"; };
+		0792375A185A215900BBBE42 /* actionscript3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript3.plist; sourceTree = "<group>"; };
+		0792375B185A215900BBBE42 /* active4d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = active4d.plist; sourceTree = "<group>"; };
+		0792375C185A215900BBBE42 /* ada.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ada.plist; sourceTree = "<group>"; };
+		0792375D185A215900BBBE42 /* ampl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ampl.plist; sourceTree = "<group>"; };
+		0792375E185A215900BBBE42 /* apache.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apache.plist; sourceTree = "<group>"; };
+		0792375F185A215900BBBE42 /* applescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applescript.plist; sourceTree = "<group>"; };
+		07923760185A215900BBBE42 /* asm-mips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-mips.plist"; sourceTree = "<group>"; };
+		07923761185A215900BBBE42 /* asm-x86.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-x86.plist"; sourceTree = "<group>"; };
+		07923762185A215900BBBE42 /* asp-js.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-js.plist"; sourceTree = "<group>"; };
+		07923763185A215900BBBE42 /* asp-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-vb.plist"; sourceTree = "<group>"; };
+		07923764185A215900BBBE42 /* aspdotnet-cs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-cs.plist"; sourceTree = "<group>"; };
+		07923765185A215900BBBE42 /* aspdotnet-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-vb.plist"; sourceTree = "<group>"; };
+		07923766185A215900BBBE42 /* awk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = awk.plist; sourceTree = "<group>"; };
+		07923767185A215900BBBE42 /* batch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = batch.plist; sourceTree = "<group>"; };
+		07923768185A215900BBBE42 /* c.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = c.plist; sourceTree = "<group>"; };
+		07923769185A215900BBBE42 /* cobol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cobol.plist; sourceTree = "<group>"; };
+		0792376A185A215900BBBE42 /* coldfusion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coldfusion.plist; sourceTree = "<group>"; };
+		0792376B185A215900BBBE42 /* cpp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cpp.plist; sourceTree = "<group>"; };
+		0792376C185A215900BBBE42 /* csharp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csharp.plist; sourceTree = "<group>"; };
+		0792376D185A215900BBBE42 /* csound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csound.plist; sourceTree = "<group>"; };
+		0792376E185A215900BBBE42 /* css.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = css.plist; sourceTree = "<group>"; };
+		0792376F185A215900BBBE42 /* d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = d.plist; sourceTree = "<group>"; };
+		07923770185A215900BBBE42 /* dylan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylan.plist; sourceTree = "<group>"; };
+		07923771185A215900BBBE42 /* eiffel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eiffel.plist; sourceTree = "<group>"; };
+		07923772185A215900BBBE42 /* erl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = erl.plist; sourceTree = "<group>"; };
+		07923773185A215900BBBE42 /* eztpl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eztpl.plist; sourceTree = "<group>"; };
+		07923774185A215900BBBE42 /* fortran.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fortran.plist; sourceTree = "<group>"; };
+		07923775185A215900BBBE42 /* freefem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = freefem.plist; sourceTree = "<group>"; };
+		07923776185A215900BBBE42 /* gedcom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gedcom.plist; sourceTree = "<group>"; };
+		07923777185A215900BBBE42 /* gnuassembler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gnuassembler.plist; sourceTree = "<group>"; };
+		07923778185A215900BBBE42 /* haskell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = haskell.plist; sourceTree = "<group>"; };
+		07923779185A215900BBBE42 /* header.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = header.plist; sourceTree = "<group>"; };
+		0792377A185A215900BBBE42 /* html.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = html.plist; sourceTree = "<group>"; };
+		0792377B185A215900BBBE42 /* idl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = idl.plist; sourceTree = "<group>"; };
+		0792377C185A215900BBBE42 /* java.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = java.plist; sourceTree = "<group>"; };
+		0792377D185A215900BBBE42 /* javafx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javafx.plist; sourceTree = "<group>"; };
+		0792377E185A215900BBBE42 /* javascript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javascript.plist; sourceTree = "<group>"; };
+		0792377F185A215900BBBE42 /* jsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jsp.plist; sourceTree = "<group>"; };
+		07923780185A215900BBBE42 /* latex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = latex.plist; sourceTree = "<group>"; };
+		07923781185A215900BBBE42 /* lilypond.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lilypond.plist; sourceTree = "<group>"; };
+		07923782185A215900BBBE42 /* lisp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lisp.plist; sourceTree = "<group>"; };
+		07923783185A215900BBBE42 /* logtalk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logtalk.plist; sourceTree = "<group>"; };
+		07923784185A215900BBBE42 /* lsl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lsl.plist; sourceTree = "<group>"; };
+		07923785185A215900BBBE42 /* lua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lua.plist; sourceTree = "<group>"; };
+		07923786185A215900BBBE42 /* matlab.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = matlab.plist; sourceTree = "<group>"; };
+		07923787185A215900BBBE42 /* mel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mel.plist; sourceTree = "<group>"; };
+		07923788185A215900BBBE42 /* metapost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metapost.plist; sourceTree = "<group>"; };
+		07923789185A215900BBBE42 /* metaslang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metaslang.plist; sourceTree = "<group>"; };
+		0792378A185A215900BBBE42 /* mysql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mysql.plist; sourceTree = "<group>"; };
+		0792378B185A215900BBBE42 /* nemerle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nemerle.plist; sourceTree = "<group>"; };
+		0792378C185A215900BBBE42 /* none.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = none.plist; sourceTree = "<group>"; };
+		0792378D185A215900BBBE42 /* nrnhoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nrnhoc.plist; sourceTree = "<group>"; };
+		0792378E185A215900BBBE42 /* objectivec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivec.plist; sourceTree = "<group>"; };
+		0792378F185A215900BBBE42 /* objectivecaml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivecaml.plist; sourceTree = "<group>"; };
+		07923790185A215900BBBE42 /* ox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ox.plist; sourceTree = "<group>"; };
+		07923791185A215900BBBE42 /* pascal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pascal.plist; sourceTree = "<group>"; };
+		07923792185A215900BBBE42 /* pdf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pdf.plist; sourceTree = "<group>"; };
+		07923793185A215900BBBE42 /* perl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = perl.plist; sourceTree = "<group>"; };
+		07923794185A215900BBBE42 /* php.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = php.plist; sourceTree = "<group>"; };
+		07923795185A215900BBBE42 /* plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plist.plist; sourceTree = "<group>"; };
+		07923796185A215900BBBE42 /* postscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = postscript.plist; sourceTree = "<group>"; };
+		07923797185A215900BBBE42 /* prolog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = prolog.plist; sourceTree = "<group>"; };
+		07923798185A215900BBBE42 /* python.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = python.plist; sourceTree = "<group>"; };
+		07923799185A215900BBBE42 /* r.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = r.plist; sourceTree = "<group>"; };
+		0792379A185A215900BBBE42 /* rhtml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rhtml.plist; sourceTree = "<group>"; };
+		0792379B185A215900BBBE42 /* ruby.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ruby.plist; sourceTree = "<group>"; };
+		0792379C185A215900BBBE42 /* scala.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scala.plist; sourceTree = "<group>"; };
+		0792379D185A215900BBBE42 /* sgml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sgml.plist; sourceTree = "<group>"; };
+		0792379E185A215900BBBE42 /* shell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shell.plist; sourceTree = "<group>"; };
+		0792379F185A215900BBBE42 /* sml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sml.plist; sourceTree = "<group>"; };
+		079237A0185A215900BBBE42 /* sql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sql.plist; sourceTree = "<group>"; };
+		079237A1185A215900BBBE42 /* standard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = standard.plist; sourceTree = "<group>"; };
+		079237A2185A215900BBBE42 /* stata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stata.plist; sourceTree = "<group>"; };
+		079237A3185A215900BBBE42 /* supercollider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = supercollider.plist; sourceTree = "<group>"; };
+		079237A4185A215900BBBE42 /* tcltk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tcltk.plist; sourceTree = "<group>"; };
+		079237A5185A215900BBBE42 /* template.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = template.plist; sourceTree = "<group>"; };
+		079237A6185A215900BBBE42 /* torquescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = torquescript.plist; sourceTree = "<group>"; };
+		079237A7185A215900BBBE42 /* udo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = udo.plist; sourceTree = "<group>"; };
+		079237A8185A215900BBBE42 /* vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vb.plist; sourceTree = "<group>"; };
+		079237A9185A215900BBBE42 /* verilog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verilog.plist; sourceTree = "<group>"; };
+		079237AA185A215900BBBE42 /* vhdl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vhdl.plist; sourceTree = "<group>"; };
+		079237AB185A215900BBBE42 /* xml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xml.plist; sourceTree = "<group>"; };
+		07C3C8F618387222006B42C5 /* ImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C3C8F918387222006B42C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07C3C8FB18387222006B42C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07C3C8FD18387222006B42C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07C3C90118387222006B42C5 /* ImageBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageBrowser-Info.plist"; sourceTree = "<group>"; };
+		07C3C90318387222006B42C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07C3C90518387222006B42C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C3C90718387222006B42C5 /* ImageBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		07C3C90818387222006B42C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07C3C90918387222006B42C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07C3C90C18387222006B42C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C3C91118387222006B42C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07C3C91718387222006B42C5 /* ImageBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C3C91818387222006B42C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07C3C92018387223006B42C5 /* ImageBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		07C3C92218387223006B42C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07C3C92418387223006B42C5 /* ImageBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserTests.m; sourceTree = "<group>"; };
+		07C3C92E18389873006B42C5 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		07C3C92F18389873006B42C5 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		07E105851858BE8F00B044AC /* shCore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shCore.js; sourceTree = "<group>"; };
+		07E105871858BEAF00B044AC /* shCoreDefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreDefault.css; sourceTree = "<group>"; };
+		07E105891858BEC600B044AC /* shBrushJScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushJScript.js; sourceTree = "<group>"; };
+		07E1058B1858BED100B044AC /* shBrushXml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushXml.js; sourceTree = "<group>"; };
+		07E1058D1858BEDB00B044AC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		26E2B2F11849FB020051AE5D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		26F66D5D186011FE003AF7D5 /* LazyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyImageView.h; sourceTree = "<group>"; };
+		26F66D5E186011FE003AF7D5 /* LazyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyImageView.m; sourceTree = "<group>"; };
+		26FE5627183A23B700DA2C74 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		26FE5628183A23B700DA2C74 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		6B9CEDBEFB2A43BF946AECE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A167C3FCA341E4AC06D539 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C3C91418387222006B42C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C3C91918387222006B42C5 /* XCTest.framework in Frameworks */,
+				07C3C91B18387222006B42C5 /* UIKit.framework in Frameworks */,
+				07C3C91A18387222006B42C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914FA667C6D1446484297C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD60F041E394987B4D9E475 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07923754185A212C00BBBE42 /* RegexHighlightView */ = {
+			isa = PBXGroup;
+			children = (
+				07923755185A215000BBBE42 /* RegexHighlightView.h */,
+				07923756185A215000BBBE42 /* RegexHighlightView.m */,
+				07923758185A215900BBBE42 /* Syntax Definitions */,
+			);
+			name = RegexHighlightView;
+			sourceTree = "<group>";
+		};
+		07923758185A215900BBBE42 /* Syntax Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				07923759185A215900BBBE42 /* actionscript.plist */,
+				0792375A185A215900BBBE42 /* actionscript3.plist */,
+				0792375B185A215900BBBE42 /* active4d.plist */,
+				0792375C185A215900BBBE42 /* ada.plist */,
+				0792375D185A215900BBBE42 /* ampl.plist */,
+				0792375E185A215900BBBE42 /* apache.plist */,
+				0792375F185A215900BBBE42 /* applescript.plist */,
+				07923760185A215900BBBE42 /* asm-mips.plist */,
+				07923761185A215900BBBE42 /* asm-x86.plist */,
+				07923762185A215900BBBE42 /* asp-js.plist */,
+				07923763185A215900BBBE42 /* asp-vb.plist */,
+				07923764185A215900BBBE42 /* aspdotnet-cs.plist */,
+				07923765185A215900BBBE42 /* aspdotnet-vb.plist */,
+				07923766185A215900BBBE42 /* awk.plist */,
+				07923767185A215900BBBE42 /* batch.plist */,
+				07923768185A215900BBBE42 /* c.plist */,
+				07923769185A215900BBBE42 /* cobol.plist */,
+				0792376A185A215900BBBE42 /* coldfusion.plist */,
+				0792376B185A215900BBBE42 /* cpp.plist */,
+				0792376C185A215900BBBE42 /* csharp.plist */,
+				0792376D185A215900BBBE42 /* csound.plist */,
+				0792376E185A215900BBBE42 /* css.plist */,
+				0792376F185A215900BBBE42 /* d.plist */,
+				07923770185A215900BBBE42 /* dylan.plist */,
+				07923771185A215900BBBE42 /* eiffel.plist */,
+				07923772185A215900BBBE42 /* erl.plist */,
+				07923773185A215900BBBE42 /* eztpl.plist */,
+				07923774185A215900BBBE42 /* fortran.plist */,
+				07923775185A215900BBBE42 /* freefem.plist */,
+				07923776185A215900BBBE42 /* gedcom.plist */,
+				07923777185A215900BBBE42 /* gnuassembler.plist */,
+				07923778185A215900BBBE42 /* haskell.plist */,
+				07923779185A215900BBBE42 /* header.plist */,
+				0792377A185A215900BBBE42 /* html.plist */,
+				0792377B185A215900BBBE42 /* idl.plist */,
+				0792377C185A215900BBBE42 /* java.plist */,
+				0792377D185A215900BBBE42 /* javafx.plist */,
+				0792377E185A215900BBBE42 /* javascript.plist */,
+				0792377F185A215900BBBE42 /* jsp.plist */,
+				07923780185A215900BBBE42 /* latex.plist */,
+				07923781185A215900BBBE42 /* lilypond.plist */,
+				07923782185A215900BBBE42 /* lisp.plist */,
+				07923783185A215900BBBE42 /* logtalk.plist */,
+				07923784185A215900BBBE42 /* lsl.plist */,
+				07923785185A215900BBBE42 /* lua.plist */,
+				07923786185A215900BBBE42 /* matlab.plist */,
+				07923787185A215900BBBE42 /* mel.plist */,
+				07923788185A215900BBBE42 /* metapost.plist */,
+				07923789185A215900BBBE42 /* metaslang.plist */,
+				0792378A185A215900BBBE42 /* mysql.plist */,
+				0792378B185A215900BBBE42 /* nemerle.plist */,
+				0792378C185A215900BBBE42 /* none.plist */,
+				0792378D185A215900BBBE42 /* nrnhoc.plist */,
+				0792378E185A215900BBBE42 /* objectivec.plist */,
+				0792378F185A215900BBBE42 /* objectivecaml.plist */,
+				07923790185A215900BBBE42 /* ox.plist */,
+				07923791185A215900BBBE42 /* pascal.plist */,
+				07923792185A215900BBBE42 /* pdf.plist */,
+				07923793185A215900BBBE42 /* perl.plist */,
+				07923794185A215900BBBE42 /* php.plist */,
+				07923795185A215900BBBE42 /* plist.plist */,
+				07923796185A215900BBBE42 /* postscript.plist */,
+				07923797185A215900BBBE42 /* prolog.plist */,
+				07923798185A215900BBBE42 /* python.plist */,
+				07923799185A215900BBBE42 /* r.plist */,
+				0792379A185A215900BBBE42 /* rhtml.plist */,
+				0792379B185A215900BBBE42 /* ruby.plist */,
+				0792379C185A215900BBBE42 /* scala.plist */,
+				0792379D185A215900BBBE42 /* sgml.plist */,
+				0792379E185A215900BBBE42 /* shell.plist */,
+				0792379F185A215900BBBE42 /* sml.plist */,
+				079237A0185A215900BBBE42 /* sql.plist */,
+				079237A1185A215900BBBE42 /* standard.plist */,
+				079237A2185A215900BBBE42 /* stata.plist */,
+				079237A3185A215900BBBE42 /* supercollider.plist */,
+				079237A4185A215900BBBE42 /* tcltk.plist */,
+				079237A5185A215900BBBE42 /* template.plist */,
+				079237A6185A215900BBBE42 /* torquescript.plist */,
+				079237A7185A215900BBBE42 /* udo.plist */,
+				079237A8185A215900BBBE42 /* vb.plist */,
+				079237A9185A215900BBBE42 /* verilog.plist */,
+				079237AA185A215900BBBE42 /* vhdl.plist */,
+				079237AB185A215900BBBE42 /* xml.plist */,
+			);
+			path = "Syntax Definitions";
+			sourceTree = "<group>";
+		};
+		07C3C8ED18387222006B42C5 = {
+			isa = PBXGroup;
+			children = (
+				07923754185A212C00BBBE42 /* RegexHighlightView */,
+				07C3C8FF18387222006B42C5 /* ImageBrowser */,
+				07C3C91E18387223006B42C5 /* ImageBrowserTests */,
+				07C3C8F818387222006B42C5 /* Frameworks */,
+				07C3C8F718387222006B42C5 /* Products */,
+				99A167C3FCA341E4AC06D539 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		07C3C8F718387222006B42C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C3C8F618387222006B42C5 /* ImageBrowser.app */,
+				07C3C91718387222006B42C5 /* ImageBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C3C8F818387222006B42C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E2B2F11849FB020051AE5D /* Social.framework */,
+				07C3C8F918387222006B42C5 /* Foundation.framework */,
+				07C3C8FB18387222006B42C5 /* CoreGraphics.framework */,
+				07C3C8FD18387222006B42C5 /* UIKit.framework */,
+				07C3C91818387222006B42C5 /* XCTest.framework */,
+				6B9CEDBEFB2A43BF946AECE1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07C3C8FF18387222006B42C5 /* ImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				07E1058F1858C0D700B044AC /* Resources */,
+				07C3C90818387222006B42C5 /* AppDelegate.h */,
+				07C3C90918387222006B42C5 /* AppDelegate.m */,
+				07C3C92E18389873006B42C5 /* BrowserViewController.h */,
+				07C3C92F18389873006B42C5 /* BrowserViewController.m */,
+				26FE5627183A23B700DA2C74 /* MyCollectionViewController.h */,
+				26FE5628183A23B700DA2C74 /* MyCollectionViewController.m */,
+				078436091852090600F77DE3 /* SourceViewController.h */,
+				0784360A1852090600F77DE3 /* SourceViewController.m */,
+				26F66D5D186011FE003AF7D5 /* LazyImageView.h */,
+				26F66D5E186011FE003AF7D5 /* LazyImageView.m */,
+				07C3C90B18387222006B42C5 /* Main.storyboard */,
+				07C3C91118387222006B42C5 /* Images.xcassets */,
+				07C3C90018387222006B42C5 /* Supporting Files */,
+			);
+			path = ImageBrowser;
+			sourceTree = "<group>";
+		};
+		07C3C90018387222006B42C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C3C90118387222006B42C5 /* ImageBrowser-Info.plist */,
+				07C3C90218387222006B42C5 /* InfoPlist.strings */,
+				07C3C90518387222006B42C5 /* main.m */,
+				07C3C90718387222006B42C5 /* ImageBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07C3C91E18387223006B42C5 /* ImageBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C3C92418387223006B42C5 /* ImageBrowserTests.m */,
+				07C3C91F18387223006B42C5 /* Supporting Files */,
+			);
+			path = ImageBrowserTests;
+			sourceTree = "<group>";
+		};
+		07C3C91F18387223006B42C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C3C92018387223006B42C5 /* ImageBrowserTests-Info.plist */,
+				07C3C92118387223006B42C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07E1058F1858C0D700B044AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07E105851858BE8F00B044AC /* shCore.js */,
+				07E105871858BEAF00B044AC /* shCoreDefault.css */,
+				07E105891858BEC600B044AC /* shBrushJScript.js */,
+				07E1058B1858BED100B044AC /* shBrushXml.js */,
+				07E1058D1858BEDB00B044AC /* index.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C3C8F518387222006B42C5 /* ImageBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C3C92818387223006B42C5 /* Build configuration list for PBXNativeTarget "ImageBrowser" */;
+			buildPhases = (
+				5F229B64F14943268F52C26B /* Check Pods Manifest.lock */,
+				07C3C8F218387222006B42C5 /* Sources */,
+				07C3C8F418387222006B42C5 /* Resources */,
+				914FA667C6D1446484297C06 /* Frameworks */,
+				3F660F96203747A482E37210 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageBrowser;
+			productName = ImageBrowser;
+			productReference = 07C3C8F618387222006B42C5 /* ImageBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C3C91618387222006B42C5 /* ImageBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C3C92B18387223006B42C5 /* Build configuration list for PBXNativeTarget "ImageBrowserTests" */;
+			buildPhases = (
+				07C3C91318387222006B42C5 /* Sources */,
+				07C3C91418387222006B42C5 /* Frameworks */,
+				07C3C91518387222006B42C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C3C91D18387223006B42C5 /* PBXTargetDependency */,
+			);
+			name = ImageBrowserTests;
+			productName = ImageBrowserTests;
+			productReference = 07C3C91718387222006B42C5 /* ImageBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C3C8EE18387222006B42C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = yoshimura;
+				TargetAttributes = {
+					07C3C91618387222006B42C5 = {
+						TestTargetID = 07C3C8F518387222006B42C5;
+					};
+				};
+			};
+			buildConfigurationList = 07C3C8F118387222006B42C5 /* Build configuration list for PBXProject "ImageBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C3C8ED18387222006B42C5;
+			productRefGroup = 07C3C8F718387222006B42C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C3C8F518387222006B42C5 /* ImageBrowser */,
+				07C3C91618387222006B42C5 /* ImageBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C3C8F418387222006B42C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079237ED185A215900BBBE42 /* rhtml.plist in Resources */,
+				079237EB185A215900BBBE42 /* python.plist in Resources */,
+				079237E8185A215900BBBE42 /* plist.plist in Resources */,
+				079237F3185A215900BBBE42 /* sql.plist in Resources */,
+				079237D6185A215900BBBE42 /* logtalk.plist in Resources */,
+				079237D5185A215900BBBE42 /* lisp.plist in Resources */,
+				079237EF185A215900BBBE42 /* scala.plist in Resources */,
+				079237BE185A215900BBBE42 /* cpp.plist in Resources */,
+				07E105901858C10300B044AC /* shCore.js in Resources */,
+				079237B7185A215900BBBE42 /* aspdotnet-cs.plist in Resources */,
+				079237DB185A215900BBBE42 /* metapost.plist in Resources */,
+				079237E1185A215900BBBE42 /* objectivec.plist in Resources */,
+				079237C7185A215900BBBE42 /* fortran.plist in Resources */,
+				079237B4185A215900BBBE42 /* asm-x86.plist in Resources */,
+				079237E3185A215900BBBE42 /* ox.plist in Resources */,
+				079237E0185A215900BBBE42 /* nrnhoc.plist in Resources */,
+				07E105911858C10300B044AC /* shBrushJScript.js in Resources */,
+				079237FE185A215900BBBE42 /* xml.plist in Resources */,
+				079237BD185A215900BBBE42 /* coldfusion.plist in Resources */,
+				079237C5185A215900BBBE42 /* erl.plist in Resources */,
+				079237F7185A215900BBBE42 /* tcltk.plist in Resources */,
+				079237CA185A215900BBBE42 /* gnuassembler.plist in Resources */,
+				07E105921858C10300B044AC /* shBrushXml.js in Resources */,
+				079237DD185A215900BBBE42 /* mysql.plist in Resources */,
+				079237AD185A215900BBBE42 /* actionscript3.plist in Resources */,
+				079237C4185A215900BBBE42 /* eiffel.plist in Resources */,
+				079237F5185A215900BBBE42 /* stata.plist in Resources */,
+				07E1058E1858BEDB00B044AC /* index.html in Resources */,
+				079237AF185A215900BBBE42 /* ada.plist in Resources */,
+				079237E4185A215900BBBE42 /* pascal.plist in Resources */,
+				079237B9185A215900BBBE42 /* awk.plist in Resources */,
+				079237FA185A215900BBBE42 /* udo.plist in Resources */,
+				079237BF185A215900BBBE42 /* csharp.plist in Resources */,
+				079237DA185A215900BBBE42 /* mel.plist in Resources */,
+				079237BC185A215900BBBE42 /* cobol.plist in Resources */,
+				079237C8185A215900BBBE42 /* freefem.plist in Resources */,
+				079237CF185A215900BBBE42 /* java.plist in Resources */,
+				079237AC185A215900BBBE42 /* actionscript.plist in Resources */,
+				079237D0185A215900BBBE42 /* javafx.plist in Resources */,
+				079237D4185A215900BBBE42 /* lilypond.plist in Resources */,
+				07C3C91218387222006B42C5 /* Images.xcassets in Resources */,
+				079237D9185A215900BBBE42 /* matlab.plist in Resources */,
+				07E105881858BEAF00B044AC /* shCoreDefault.css in Resources */,
+				079237FB185A215900BBBE42 /* vb.plist in Resources */,
+				079237CE185A215900BBBE42 /* idl.plist in Resources */,
+				079237CC185A215900BBBE42 /* header.plist in Resources */,
+				079237E2185A215900BBBE42 /* objectivecaml.plist in Resources */,
+				079237D1185A215900BBBE42 /* javascript.plist in Resources */,
+				079237BB185A215900BBBE42 /* c.plist in Resources */,
+				079237B0185A215900BBBE42 /* ampl.plist in Resources */,
+				079237B8185A215900BBBE42 /* aspdotnet-vb.plist in Resources */,
+				079237F4185A215900BBBE42 /* standard.plist in Resources */,
+				079237EC185A215900BBBE42 /* r.plist in Resources */,
+				079237DF185A215900BBBE42 /* none.plist in Resources */,
+				079237B1185A215900BBBE42 /* apache.plist in Resources */,
+				079237FC185A215900BBBE42 /* verilog.plist in Resources */,
+				079237E7185A215900BBBE42 /* php.plist in Resources */,
+				07C3C90418387222006B42C5 /* InfoPlist.strings in Resources */,
+				079237BA185A215900BBBE42 /* batch.plist in Resources */,
+				079237B2185A215900BBBE42 /* applescript.plist in Resources */,
+				079237E6185A215900BBBE42 /* perl.plist in Resources */,
+				079237F2185A215900BBBE42 /* sml.plist in Resources */,
+				079237B6185A215900BBBE42 /* asp-vb.plist in Resources */,
+				079237EA185A215900BBBE42 /* prolog.plist in Resources */,
+				079237F6185A215900BBBE42 /* supercollider.plist in Resources */,
+				079237D8185A215900BBBE42 /* lua.plist in Resources */,
+				079237E9185A215900BBBE42 /* postscript.plist in Resources */,
+				079237D2185A215900BBBE42 /* jsp.plist in Resources */,
+				079237D3185A215900BBBE42 /* latex.plist in Resources */,
+				079237C1185A215900BBBE42 /* css.plist in Resources */,
+				07C3C90D18387222006B42C5 /* Main.storyboard in Resources */,
+				079237AE185A215900BBBE42 /* active4d.plist in Resources */,
+				079237D7185A215900BBBE42 /* lsl.plist in Resources */,
+				079237DC185A215900BBBE42 /* metaslang.plist in Resources */,
+				079237F8185A215900BBBE42 /* template.plist in Resources */,
+				079237C0185A215900BBBE42 /* csound.plist in Resources */,
+				079237B5185A215900BBBE42 /* asp-js.plist in Resources */,
+				079237C3185A215900BBBE42 /* dylan.plist in Resources */,
+				079237CB185A215900BBBE42 /* haskell.plist in Resources */,
+				079237E5185A215900BBBE42 /* pdf.plist in Resources */,
+				079237EE185A215900BBBE42 /* ruby.plist in Resources */,
+				079237FD185A215900BBBE42 /* vhdl.plist in Resources */,
+				079237CD185A215900BBBE42 /* html.plist in Resources */,
+				079237B3185A215900BBBE42 /* asm-mips.plist in Resources */,
+				079237DE185A215900BBBE42 /* nemerle.plist in Resources */,
+				079237C2185A215900BBBE42 /* d.plist in Resources */,
+				079237F0185A215900BBBE42 /* sgml.plist in Resources */,
+				079237F1185A215900BBBE42 /* shell.plist in Resources */,
+				079237C6185A215900BBBE42 /* eztpl.plist in Resources */,
+				079237C9185A215900BBBE42 /* gedcom.plist in Resources */,
+				079237F9185A215900BBBE42 /* torquescript.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C3C91518387222006B42C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C3C92318387223006B42C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F660F96203747A482E37210 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F229B64F14943268F52C26B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C3C8F218387222006B42C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E1058C1858BED100B044AC /* shBrushXml.js in Sources */,
+				26FE5629183A23B700DA2C74 /* MyCollectionViewController.m in Sources */,
+				26F66D5F186011FE003AF7D5 /* LazyImageView.m in Sources */,
+				07E1058A1858BEC600B044AC /* shBrushJScript.js in Sources */,
+				0784360B1852090600F77DE3 /* SourceViewController.m in Sources */,
+				07C3C93018389873006B42C5 /* BrowserViewController.m in Sources */,
+				07923757185A215000BBBE42 /* RegexHighlightView.m in Sources */,
+				07C3C90A18387222006B42C5 /* AppDelegate.m in Sources */,
+				07E105861858BE8F00B044AC /* shCore.js in Sources */,
+				07C3C90618387222006B42C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C3C91318387222006B42C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C3C92518387223006B42C5 /* ImageBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C3C91D18387223006B42C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C3C8F518387222006B42C5 /* ImageBrowser */;
+			targetProxy = 07C3C91C18387223006B42C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C3C90218387222006B42C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C3C90318387222006B42C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07C3C90B18387222006B42C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C3C90C18387222006B42C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07C3C92118387223006B42C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C3C92218387223006B42C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C3C92618387223006B42C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07C3C92718387223006B42C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C3C92918387223006B42C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A167C3FCA341E4AC06D539 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Developer/Local/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageBrowser/ImageBrowser-Prefix.pch";
+				INFOPLIST_FILE = "ImageBrowser/ImageBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07C3C92A18387223006B42C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A167C3FCA341E4AC06D539 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Developer/Local/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageBrowser/ImageBrowser-Prefix.pch";
+				INFOPLIST_FILE = "ImageBrowser/ImageBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07C3C92C18387223006B42C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageBrowser.app/ImageBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageBrowser/ImageBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageBrowserTests/ImageBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07C3C92D18387223006B42C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageBrowser.app/ImageBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageBrowser/ImageBrowser-Prefix.pch";
+				INFOPLIST_FILE = "ImageBrowserTests/ImageBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C3C8F118387222006B42C5 /* Build configuration list for PBXProject "ImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C3C92618387223006B42C5 /* Debug */,
+				07C3C92718387223006B42C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C3C92818387223006B42C5 /* Build configuration list for PBXNativeTarget "ImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C3C92918387223006B42C5 /* Debug */,
+				07C3C92A18387223006B42C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C3C92B18387223006B42C5 /* Build configuration list for PBXNativeTarget "ImageBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C3C92C18387223006B42C5 /* Debug */,
+				07C3C92D18387223006B42C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C3C8EE18387222006B42C5 /* Project object */;
+}
